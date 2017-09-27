@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>International students manual</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="mainCSS.css"/>
+</head>
+<body>
+<details>
+  <summary>See More</summary>
+  This text will be hidden if your browser supports it.
+</details>
+<ul class="tree">
+		<!--title-->
+		<li class="tree__item">
+			<span>
+		        <a href="#">Expand the section that you would like to know more about</a>
+			</span>
+		</li>
+		
+		<!--Public transportation-->
+		<li class="tree__item hasChildren">
+			<span>
+		        <div class="icon"></div>
+				<a href="#">Public transportation</a>
+			</span>
+			<ul>
+				<li>
+					<span>
+				        <div class="icon"></div>
+						<a href="#">Intro</a>
+					</span>
+	
+					<ul>
+						<li>
+							<span><a href="">Link</a></span>
+						</li>
+					</ul>
+				</li>
+	
+				<li>
+					<span><a href="#">Biomechanics</a></span>
+				</li>
+	
+				<li>
+					<span><a href="#">Improvisation</a></span>
+				</li>
+			</ul>
+		</li>
+	
+	<li class="tree__item hasChildren">
+
+		<span>
+	        <div class="icon"></div>
+			<a href="#">Acting &amp; Actor Training</a>
+		</span>
+
+		<ul>
+			<li>
+				<span><a href="#">Acting</a></span>
+			</li>
+
+			<li>
+				<span><a href="#">Biomechanics</a></span>
+			</li>
+
+			<li>
+				<span><a href="#">Improvisation</a></span>
+			</li>
+
+		</ul>
+
+	</li>
+</ul>
+<script>
+$('.tree .icon').click( function() {
+	  $(this).parent().toggleClass('expanded').
+	  closest('li').find('ul:first').
+	  toggleClass('show-effect');
+	});</script>
+
+</body>
+</html>
