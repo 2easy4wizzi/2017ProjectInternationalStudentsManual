@@ -7,21 +7,25 @@
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script
 	src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<!-- <link rel="stylesheet" type="text/css" href="WebContent/showHidePictures.css" />
+ -->
 </head>
 <body>
 
 	<div data-role="page" id="pageone">
+		<!-- HEADER -->
 		<div data-role="header">
 			<h1>International Students Manual</h1>
 		</div>
 
+		<!-- main title -->
 		<div data-role="main" class="ui-content">
 			<h2>Click to expand</h2>
-			<!-- main title -->
 
+			<!-- chapter 1 -->
 			<div data-role="collapsible">
 				<h4>Before coming to Israel</h4>
-				<div data-role="collapsible">
+				<div data-role="collapsible" data-collapsed="false">
 					<h4>Does dates of my flight tickets matter?</h4>
 					<p>Yes. Carefull while booking the dates of the flight tickets.
 						In Israel, public transportaion on the weekends and on
@@ -30,36 +34,32 @@
 						no holiday on this date. Otherwise, you we be stucked with no
 						cheap way to come from the airport to Haifa's dorms</p>
 				</div>
-				<div data-role="collapsible">
+				<div data-role="collapsible" data-collapsed="false">
 					<h4>Where should i go when i land in Ben Gurion airport?</h4>
 					<p>You should get on a trian from Natbag(Ben Gurion airport) to
 						"Hof ha'Carmel station" and from there to Haifa University(the
-						dorms are on the edge of the University)</p>
-					<img src="resources/natbagToDorms.PNG" alt="natbagToDorms.PNG"
-						style="width: 304px; height: 228px;">
+						dorms are on the edge of the University). The drive should take
+						around 2 hours (1:15 on the train).</p>
+					<div data-role="collapsible">
+						<h4>Show map?</h4>
+						<img src="resources/natbagToDorms.PNG" alt="natbagToDorms.PNG">
+					</div>
 				</div>
-				<!-- <ul data-role="listview">
-					<li><a href="#">Adele</a></li>
-					<li><a href="#">Agnes</a></li>
-				</ul> -->
 			</div>
 
-			<div data-role="collapsible">
-				<h4>B</h4>
-				<ul data-role="listview" data-filter="true" data-icon="home">
-					<li>
-						<div data-role="collapsible">
-							<h4>B</h4>
-							<ul data-role="listview" data-filter="true" data-icon="home">
-								<li></li>
-								<li><a href="#">Billy</a></li>
-								<li><a href="#">Bob</a></li>
-							</ul>
-						</div>
-					</li>
-					<li><a href="#">Billy</a></li>
-					<li><a href="#">Bob</a></li>
-				</ul>
+			<!-- chapter 2 -->
+			<!-- chapter 2 -->
+			<div data-role="collapsible" data-collapsed="false">
+				<h4>Public transportaion</h4>
+				<div data-role="collapsible" data-collapsed="false">
+					<h4>B</h4>
+				</div>
+				<div data-role="collapsible" data-collapsed="false">
+					<h4>B</h4>
+				</div>
+				<div data-role="collapsible" data-collapsed="false">
+					<h4>B</h4>
+				</div>
 			</div>
 
 			<div data-role="collapsible">
