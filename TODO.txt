@@ -1,8 +1,6 @@
-footer - write to users to send mail if helpful
 
-max size of pics
+
 PROFFING
-links!
 
 
 
@@ -16,7 +14,4 @@ links!
 
 
 topics
-phone
-internet
-campus
-haifa
+
