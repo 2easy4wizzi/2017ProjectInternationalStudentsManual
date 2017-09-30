@@ -1,4 +1,13 @@
-#header{
-  /* background-color: green; */
-  text-align: left !important;
+
+.ui-header .ui-title {
+	/* background-color: yellow; */
+	text-align: left;
+	margin: 0 1em;
 }
+
+.ui-footer .ui-title 
+{
+	/* background-color: brown; */
+	text-align: left;
+}
+

@@ -1,8 +1,6 @@
 footer - write to users to send mail if helpful
 
-above footer - release notes - whats new
 max size of pics
-fix header - aligh left
 PROFFING
 links!
 
