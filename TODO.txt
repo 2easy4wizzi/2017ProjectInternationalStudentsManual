@@ -1,5 +1,4 @@
 pictures size in Kb !
-max size of pics - rav kav pic go out of bounds also the apps pics. add att: maxheight and maxwidth 100%
 what new also in div block
 Meta data- add good key words
 
